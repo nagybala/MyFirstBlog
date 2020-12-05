@@ -1,0 +1,115 @@
+header {
+    position: fixed;
+    top: 0;
+    background: rgba(85, 86, 87, 0.8);
+    width: 100%;
+    height: 80px;
+    display: inline;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    margin-top: 0;
+    font-size: 45px;
+    color: rgb(17, 17, 17);
+    line-height:1.5;
+    text-shadow: 0px 5px 5px rgb(46, 46, 46);
+    
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    background-image: url('background2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    margin: 120px 200px 0 200px;
+}
+
+h3 {
+    font-size: 30px;
+    
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#newPostTitle {
+    display: block;
+    border: 1px solid;
+    width: 300px;
+    height: 22px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#newPostContent {
+    display: block;
+    border: 1px solid;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 4px; 
+    outline: none; 
+}
+
+button {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0 15px 0 15px;
+    background: rgb(194, 194, 194);
+    border: 1px solid rgb(92, 92, 92);
+    outline: none;
+    box-shadow: 0px 2px 2px 1px black;
+}
+
+button:active {
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 0px black;
+
+}
+
+button:focus {
+    border-radius: 10px;
+
+}
+
+hr {
+    margin:  50px 0 50px 0;
+}
+
+.post1, .post2, .post3, .post4, .post5, .post6, .post7, .post8, .post9, .post10 {
+    border: 1px solid;
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 2px 1px black;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+p {
+    font-weight: bold;
+    font-size: 17px;
+}
